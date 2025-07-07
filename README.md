@@ -93,38 +93,3 @@ The repository is organized as follows:
 ├── docs/                   # Documentation, including setup and usage instructions
 └── README.md               # Project overview and guide
 
-Getting Started
-Prerequisites
-
-Python 3.8+
-Libraries: mediapipe, tensorflow, opencv-python, numpy, scikit-learn
-A webcam for data collection and real-time testing
-
-Installation
-
-Clone the repository:git clone https://github.com/your-username/hand-gesture-recognition.git
-cd hand-gesture-recognition
-
-
-Install dependencies:pip install -r requirements.txt
-
-
-Run the scripts in sequence (see docs/ for detailed instructions).
-
-Usage
-
-Collect gesture data: python collect_landmarks.py
-Preprocess data: python preprocess_data.py
-Train the model: python train_model.py
-Optimize the model: python optimize_model.py
-Run the real-time application: python gesture_app.py
-
-Contributing
-Contributions are welcome! Please see CONTRIBUTING.md for guidelines on submitting issues, pull requests, or feature suggestions.
-License
-This project is licensed under the MIT License. See LICENSE for details.
-Acknowledgments
-
-Google’s MediaPipe for hand landmark detection.
-TensorFlow/Keras for deep learning support.
-The open-source community for tools and inspiration.
